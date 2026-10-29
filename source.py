@@ -61,7 +61,7 @@ class PersonalTrainer:
             aluno = self.alunos[indice]
             idade = aluno['idade']
             print(f"\n========================================")
-            print(f" FICHA DE TREINO - EMA FIT")
+            print(f" FICHA DE TREINO - UEMA FIT")
             print(f" Aluno: {aluno['nome']} | Idade: {idade} anos | Meta: {aluno['meta']}")
             print(f"========================================")
 
@@ -85,7 +85,7 @@ class PersonalTrainer:
     def menu(self):
         while True:
             print("\n==============================")
-            print("    EMA FIT - SISTEMA DE TREINOS   ")
+            print("    UEMA FIT - SISTEMA DE TREINOS   ")
             print("==============================")
             print("1. Cadastrar Aluno")
             print("2. Listar Alunos")
